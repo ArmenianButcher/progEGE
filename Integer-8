@@ -1,0 +1,12 @@
+#include<iostream>
+
+using namespace std;
+
+int main() {
+	int num;
+	cin >> num;
+	int first = num%10;
+	int second = num/10;
+	cout << first << second << endl;
+	return 0;
+}
