@@ -6,6 +6,6 @@ int main() {
 	int a;
 	cin >> a;
 	if(a>0) {
-		cout << "YES" << endl;
-	} else cout << "NO" << endl;
+		cout << true << endl;
+	} else cout << false << endl;
 }
