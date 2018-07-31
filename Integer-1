@@ -1,0 +1,11 @@
+#include<iostream>
+
+using namespace std;
+
+int main() {
+	int sm;
+	cin >> sm;
+	int m = sm/100;
+	cout << m << endl;
+	return 0;
+}
