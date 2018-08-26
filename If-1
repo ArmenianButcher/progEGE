@@ -1,0 +1,15 @@
+#include<iostream>
+#include<vector>
+using namespace std;
+
+
+
+int main() {
+	int N;
+	cin >> N;
+	if(N>0) {
+		N+=1;
+		cout << N;
+	} else cout <<N;
+	return 0;
+}
